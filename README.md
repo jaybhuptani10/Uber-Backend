@@ -48,3 +48,7 @@ The request body should be a JSON object with the following structure:
 }
 ]
 }
+
+{
+"message": "Invalid email or password"
+}
