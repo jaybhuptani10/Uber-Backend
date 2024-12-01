@@ -38,3 +38,13 @@ The request body should be a JSON object with the following structure:
   - `password` (string,required): User's password (min 6 chars).
 
 - `token` (string): JWT Token
+
+{
+"errors": [
+{
+"msg": "Error message",
+"param": "field name",
+"location": "body"
+}
+]
+}
